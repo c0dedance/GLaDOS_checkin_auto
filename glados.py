@@ -3,6 +3,9 @@ import requests,json,os
 # github workflows
 # -------------------------------------------------------------------------------------------
 if __name__ == '__main__':
+# dayi
+    requests.get("https://dayi.sicosola.com/main/wallet/webShareApp?shd=187544")
+    requests.get("https://dayi.sicosola.com/main/wallet/webShareApp?shd=187545")
 # pushplus秘钥 申请地址 http://www.pushplus.plus
     sckey = os.environ.get("PUSHPLUS_TOKEN", "")
 # 推送内容
